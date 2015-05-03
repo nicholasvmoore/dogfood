@@ -1,0 +1,95 @@
+-- Logs begin at Fri 2015-05-01 18:38:03 UTC, end at Sun 2015-05-03 01:15:25 UTC. --
+May 01 18:38:08 core00 systemd[1]: Started etcd2.
+May 01 18:38:08 core00 systemd[1]: Starting etcd2...
+May 01 18:38:08 core00 etcd2[639]: 2015/05/01 18:38:08 etcd: listening for peers on http://192.168.200.90:2380
+May 01 18:38:08 core00 etcd2[639]: 2015/05/01 18:38:08 etcd: listening for peers on http://192.168.200.90:7001
+May 01 18:38:08 core00 etcd2[639]: 2015/05/01 18:38:08 etcd: listening for client requests on http://0.0.0.0:2379
+May 01 18:38:08 core00 etcd2[639]: 2015/05/01 18:38:08 etcd: listening for client requests on http://0.0.0.0:4001
+May 01 18:38:08 core00 etcd2[639]: 2015/05/01 18:38:08 etcdserver: datadir is valid for the 2.0.1 format
+May 01 18:38:08 core00 etcd2[639]: 2015/05/01 18:38:08 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:38:08 core00 etcd2[639]: 2015/05/01 18:38:08 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:39:12 core00 etcd2[639]: 2015/05/01 18:39:12 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 2s
+May 01 18:39:14 core00 etcd2[639]: 2015/05/01 18:39:14 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:39:14 core00 etcd2[639]: 2015/05/01 18:39:14 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:40:14 core00 etcd2[639]: 2015/05/01 18:40:14 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 4s
+May 01 18:40:18 core00 etcd2[639]: 2015/05/01 18:40:18 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:40:18 core00 etcd2[639]: 2015/05/01 18:40:18 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:41:18 core00 etcd2[639]: 2015/05/01 18:41:18 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 8s
+May 01 18:41:26 core00 etcd2[639]: 2015/05/01 18:41:26 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:41:26 core00 etcd2[639]: 2015/05/01 18:41:26 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:42:26 core00 etcd2[639]: 2015/05/01 18:42:26 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 16s
+May 01 18:42:42 core00 etcd2[639]: 2015/05/01 18:42:42 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:42:42 core00 etcd2[639]: 2015/05/01 18:42:42 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:43:42 core00 etcd2[639]: 2015/05/01 18:43:42 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 32s
+May 01 18:44:14 core00 etcd2[639]: 2015/05/01 18:44:14 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:44:14 core00 etcd2[639]: 2015/05/01 18:44:14 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:45:14 core00 etcd2[639]: 2015/05/01 18:45:14 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 1m4s
+May 01 18:46:18 core00 etcd2[639]: 2015/05/01 18:46:18 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:46:18 core00 etcd2[639]: 2015/05/01 18:46:18 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:47:18 core00 etcd2[639]: 2015/05/01 18:47:18 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 2m8s
+May 01 18:49:26 core00 etcd2[639]: 2015/05/01 18:49:26 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:49:26 core00 etcd2[639]: 2015/05/01 18:49:26 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:50:26 core00 etcd2[639]: 2015/05/01 18:50:26 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 4m16s
+May 01 18:54:42 core00 etcd2[639]: 2015/05/01 18:54:42 discovery: found self 987149d46b4616b1 in the cluster
+May 01 18:54:42 core00 etcd2[639]: 2015/05/01 18:54:42 discovery: found 1 peer(s), waiting for 2 more
+May 01 18:55:42 core00 etcd2[639]: 2015/05/01 18:55:42 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 8m32s
+May 01 19:04:14 core00 etcd2[639]: 2015/05/01 19:04:14 discovery: found self 987149d46b4616b1 in the cluster
+May 01 19:04:14 core00 etcd2[639]: 2015/05/01 19:04:14 discovery: found 1 peer(s), waiting for 2 more
+May 01 19:05:14 core00 etcd2[639]: 2015/05/01 19:05:14 discovery: during waiting for other nodes connection to https://discovery.etcd.io timed out, retrying in 17m4s
+May 01 19:07:05 core00 systemd[1]: Stopping etcd2...
+May 01 19:07:05 core00 systemd[1]: etcd2.service: main process exited, code=exited, status=2/INVALIDARGUMENT
+May 01 19:07:05 core00 systemd[1]: Unit etcd2.service entered failed state.
+May 01 19:07:05 core00 systemd[1]: etcd2.service failed.
+May 01 19:07:05 core00 systemd[1]: Started etcd2.
+May 01 19:07:05 core00 systemd[1]: Starting etcd2...
+May 01 19:07:05 core00 etcd2[1209]: 2015/05/01 19:07:05 etcd: listening for peers on http://192.168.200.90:2380
+May 01 19:07:05 core00 etcd2[1209]: 2015/05/01 19:07:05 etcd: listening for peers on http://192.168.200.90:7001
+May 01 19:07:05 core00 etcd2[1209]: 2015/05/01 19:07:05 etcd: listening for client requests on http://0.0.0.0:2379
+May 01 19:07:05 core00 etcd2[1209]: 2015/05/01 19:07:05 etcd: listening for client requests on http://0.0.0.0:4001
+May 01 19:07:05 core00 etcd2[1209]: 2015/05/01 19:07:05 etcdserver: datadir is valid for the 2.0.1 format
+May 01 19:07:06 core00 systemd[1]: etcd2.service: main process exited, code=exited, status=1/FAILURE
+May 01 19:07:06 core00 systemd[1]: Unit etcd2.service entered failed state.
+May 01 19:07:06 core00 systemd[1]: etcd2.service failed.
+May 01 19:07:15 core00 systemd[1]: Started etcd2.
+May 01 19:07:15 core00 systemd[1]: Starting etcd2...
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: listening for peers on http://192.168.200.90:2380
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: listening for peers on http://192.168.200.90:7001
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: listening for client requests on http://0.0.0.0:2379
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: listening for client requests on http://0.0.0.0:4001
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcdserver: datadir is valid for the 2.0.1 format
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: stopping listening for client requests on http://0.0.0.0:4001
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: stopping listening for client requests on http://0.0.0.0:2379
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: stopping listening for peers on http://192.168.200.90:7001
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: stopping listening for peers on http://192.168.200.90:2380
+May 01 19:07:15 core00 etcd2[1222]: 2015/05/01 19:07:15 etcd: member 638e9dc35c92413d81623ab075f7c986 has previously registered with discovery service (https://discovery.etcd.io/cf8dad7dbb1bd1e7b411cffa2c18f5a6), but the data-dir (/var/lib/etcd2/) on disk cannot be found.
+May 01 19:07:15 core00 systemd[1]: etcd2.service: main process exited, code=exited, status=1/FAILURE
+May 01 19:07:15 core00 systemd[1]: Unit etcd2.service entered failed state.
+May 01 19:07:15 core00 systemd[1]: etcd2.service failed.
+May 01 19:07:25 core00 systemd[1]: etcd2.service holdoff time over, scheduling restart.
+May 01 19:07:25 core00 systemd[1]: Started etcd2.
+May 01 19:07:25 core00 systemd[1]: Starting etcd2...
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: listening for peers on http://192.168.200.90:2380
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: listening for peers on http://192.168.200.90:7001
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: listening for client requests on http://0.0.0.0:2379
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: listening for client requests on http://0.0.0.0:4001
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcdserver: datadir is valid for the 2.0.1 format
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: stopping listening for client requests on http://0.0.0.0:4001
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: stopping listening for client requests on http://0.0.0.0:2379
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: stopping listening for peers on http://192.168.200.90:7001
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: stopping listening for peers on http://192.168.200.90:2380
+May 01 19:07:25 core00 etcd2[1229]: 2015/05/01 19:07:25 etcd: member 638e9dc35c92413d81623ab075f7c986 has previously registered with discovery service (https://discovery.etcd.io/cf8dad7dbb1bd1e7b411cffa2c18f5a6), but the data-dir (/var/lib/etcd2/) on disk cannot be found.
+May 01 19:07:25 core00 systemd[1]: etcd2.service: main process exited, code=exited, status=1/FAILURE
+May 01 19:07:25 core00 systemd[1]: Unit etcd2.service entered failed state.
+May 01 19:07:25 core00 systemd[1]: etcd2.service failed.
+May 01 19:07:35 core00 systemd[1]: etcd2.service holdoff time over, scheduling restart.
+May 01 19:07:35 core00 systemd[1]: Started etcd2.
+May 01 19:07:35 core00 systemd[1]: Starting etcd2...
+May 01 19:07:35 core00 etcd2[1240]: 2015/05/01 19:07:35 etcd: listening for peers on http://192.168.200.90:2380
+May 01 19:07:35 core00 etcd2[1240]: 2015/05/01 19:07:35 etcd: listening for peers on http://192.168.200.90:7001
+May 01 19:07:35 core00 etcd2[1240]: 2015/05/01 19:07:35 etcd: listening for client requests on http://0.0.0.0:2379
+May 01 19:07:35 core00 etcd2[1240]: 2015/05/01 19:07:35 etcd: listening for client requests on http://0.0.0.0:4001
+May 01 19:07:35 core00 etcd2[1240]: 2015/05/01 19:07:35 etcdserver: datadir is valid for the 2.0.1 format
+May 01 19:07:36 core00 etcd2[1240]: 2015/05/01 19:07:36 etcd: stopping listening for client requests on http://0.0.0.0:4001
+May 01 19:07:36 core00 etcd2[1240]: 2015/05/01 19:07:36 etcd: stopping listening for client requests on http://0.0.0.0:2379
+May 01 19:07:36 core00 etcd2[1240]: 2015/05/01 19:07:36 etcd: stopping listening for peers on http://192.168.200.90:7001
+May 01 19:07:36 core00 etcd2[1240]: 2015/05/01 19:07:36 etcd: stopping listening for peers on http://192.168.200.90:2380

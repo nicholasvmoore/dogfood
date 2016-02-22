@@ -1,0 +1,17 @@
+[Unit]
+Description=Phone Home Reverse SSH Service
+ConditionPathExists=|/usr/bin
+After=network.target
+
+[Service]
+User=nicholas
+ExecStart=/usr/bin/bash -c 'if /usr/bin/ping 8.8.8.8 -c 1; then /usr/bin/ssh -NTC -o ServerAliveInterval=60 -o ExitOnForwardFailure=yes -o StrictHostKeyChecking=no -i %h/.ssh/servername-home-key -R 12345:localhost:22 nicholas@ns2.rlgeex.me; fi'
+
+# Restart every >2 seconds to avoid StartLimitInterval failure
+RestartSec=3
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
